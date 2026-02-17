@@ -1,0 +1,110 @@
+schema_version: "1.0"
+artifact:
+  id: "nova-itera-rvaf-001"
+  title: "Research Value Assessment Framework"
+  artifact_type: "framework"
+  category: "metadata_classifier"
+  classification_outputs:
+    - "PROPRIETARY_SYSTEM"
+    - "COMPREHENSIVE_FRAMEWORK"
+    - "STRUCTURED_METHODOLOGY"
+    - "OPERATIONAL_WORKFLOW"
+    - "SYSTEMATIC_SCHEMA"
+    - "REFINED_CONCEPT"
+    - "DEVELOPED_IDEA"
+    - "STRUCTURED_THOUGHT"
+    
+
+timestamps:
+  created_utc_iso8601: "2026-02-17T01:14:58.125Z"
+  created_utc_unix_ms: 1771290898125
+  exported_utc_iso8601: "2026-02-17T01:14:58.125Z"
+  exported_utc_unix_ms: 1771290898125
+
+attribution:
+  rights_holder: "NOVA ITERA RESEARCH GROUP, LLC"
+  contact_email: "safety@novaiteraresearch.org"
+  preferred_attribution: "NOVA ITERA RESEARCH GROUP, LLC (safety@novaiteraresearch.org)"
+  integrity_note: "This repository intentionally includes the full original formula verbatim to preserve attribution and provenance."
+
+license:
+  spdx_id: "Apache-2.0"
+  notice_file: "NOTICE"
+  include_patent_grant: true
+
+technical:
+  language: "Notion Formula"
+  inputs:
+    - name: "Components"
+      type: "list"
+    - name: "Type"
+      type: "string"
+    - name: "Format"
+      type: "string"
+    - name: "Tags"
+      type: "list"
+    - name: "Purpose"
+      type: "string"
+  outputs:
+    - name: "classification_string"
+      type: "string"
+      example: "[PROPRIETARY_SYSTEM] Score: 91/100"
+
+scoring_model:
+  component_complexity:
+    range_points: [0, 30]
+    rule: "Components.length() * 3"
+  type_sophistication:
+    range_points: [0, 25]
+    mapping:
+      System Prompt: 25
+      Metaprompt: 22
+      Schema: 20
+      Chain of Thought: 18
+      Instruction Set: 15
+      Evaluation Prompt: 15
+      Prompt Template: 12
+      Few-Shot Example: 8
+      default: 5
+  format_structure:
+    range_points: [0, 20]
+    mapping:
+      METADATA CLASSIFIER: 20
+      TAXONOMY: 20
+      Schema: 18
+      Table: 16
+      Structured Overview: 15
+      Step-by-Step Guide: 13
+      Structured Summary: 12
+      Report: 10
+      Q&A: 8
+      Bullet Points: 6
+      Conversation: 4
+      default: 5
+  tag_diversity:
+    range_points: [0, 15]
+    rule: "min(15, Tags.length() * 2.5)"
+  purpose_depth:
+    range_points: [0, 10]
+    rule: "if(empty(Purpose), 0, min(10, Purpose.length() / 30))"
+  aggregation:
+    total_score_rule: "round(componentScore + typeScore + formatScore + tagScore + purposeScore, 0)"
+  classification_mapping:
+    - threshold_gte: 85
+      asset_type: "PROPRIETARY_SYSTEM"
+    - threshold_gte: 75
+      asset_type: "COMPREHENSIVE_FRAMEWORK"
+    - threshold_gte: 65
+      asset_type: "STRUCTURED_METHODOLOGY"
+    - threshold_gte: 55
+      asset_type: "OPERATIONAL_WORKFLOW"
+    - threshold_gte: 45
+      asset_type: "SYSTEMATIC_SCHEMA"
+    - threshold_gte: 35
+      asset_type: "REFINED_CONCEPT"
+    - threshold_gte: 25
+      asset_type: "DEVELOPED_IDEA"
+    - threshold_gte: 15
+      asset_type: "STRUCTURED_THOUGHT"
+    - threshold_gte: 0
+      asset_type: "INITIAL_BRAINDUMP"
