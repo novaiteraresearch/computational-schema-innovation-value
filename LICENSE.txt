@@ -1,0 +1,135 @@
+                              APACHE LICENSE
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      "License" shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document,
+      including the additional restrictions in Section 10.
+
+      "Licensor" shall mean NOVA ITERA RESEARCH GROUP, LLC.
+
+      "Legal Entity" shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity.
+
+      "You" (or "Your") shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      "Source" form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      "Object" form shall mean any form resulting from mechanical
+      transformation or translation of a Source form.
+
+      "Work" shall mean the Research Value Assessment Framework (Notion Formula),
+      including all associated metadata, YAML configuration files, and documentation,
+      as indicated by the copyright notice in the NOTICE file.
+
+      "Derivative Works" shall mean any work based on (or derived from) the Work
+      and for which the editorial revisions, annotations, elaborations, or
+      other modifications represent an original work of authorship.
+
+      "Contribution" shall mean any work of authorship intentionally submitted
+      to Licensor for inclusion in the Work.
+
+      "Research Use" shall mean use of the Work solely for non-commercial,
+      academic, or scientific research purposes, excluding any commercial,
+      operational, or for-profit activities.
+
+   2. Grant of Copyright License.
+      Subject to the terms and conditions of this License, including the
+      restrictions in Section 10, each Contributor hereby grants to You a
+      perpetual, worldwide, non-exclusive, no-charge, royalty-free,
+      irrevocable copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, and distribute the Work and such
+      Derivative Works in Source or Object form, **solely for Research Use**.
+
+   3. Grant of Patent License.
+      Subject to the terms and conditions of this License, each Contributor
+      hereby grants to You a perpetual, worldwide, non-exclusive, no-charge,
+      royalty-free, irrevocable patent license to make, have made, use, offer
+      to sell, sell, import, and otherwise transfer the Work, where such
+      license applies only to those patent claims licensable by such
+      Contributor that are necessarily infringed by their Contribution(s)
+      alone or by combination of their Contribution(s) with the Work,
+      **solely for Research Use**.
+
+   4. Redistribution.
+      You may reproduce and distribute copies of the Work or Derivative Works
+      thereof in any medium, with or without modifications, provided that
+      You meet the following conditions:
+
+      (a) You retain all copyright, patent, trademark, and attribution notices
+          from the Source form of the Work, including the NOTICE file;
+
+      (b) You include a copy of this License with every copy of the Work
+          or Derivative Works;
+
+      (c) You ensure that all Derivative Works **include the following citation**
+          in any associated documentation, publication, or presentation:
+
+          > NOVA ITERA RESEARCH GROUP, LLC. (2026). *Research Value Assessment Framework (Notion Formula)* [Software].
+          > NOVA ITERA RESEARCH GROUP, LLC. https://github.com/novaiteraresearch/nova-itera-rvaf-001
+
+      (d) You distribute Derivative Works **solely for Research Use** and
+          prohibit any commercial, operational, or for-profit use;
+
+      (e) You do not remove or alter the substance of the NOTICE file.
+
+   5. Submission of Contributions.
+      Unless You explicitly state otherwise, any Contribution intentionally
+      submitted for inclusion in the Work by You shall be under the terms
+      and conditions of this License, without any additional terms or
+      conditions, and **solely for Research Use**.
+
+   6. Trademarks.
+      This License does not grant permission to use the trade names,
+      trademarks, service marks, or product names of the Licensor.
+
+   7. Disclaimer of Warranty.
+      The Work is provided "AS IS," without warranties or conditions of any
+      kind, either express or implied, including merchantability or fitness
+      for a particular purpose.
+
+   8. Limitation of Liability.
+      Under no circumstances shall the Licensor be liable for any damages
+      arising from the use or inability to use the Work.
+
+   9. Additional Terms.
+      9.1 **Research Use Restriction.**
+          The Work and any Derivative Works may be used **solely for Research Use**.
+          Commercial, operational, or for-profit use is strictly prohibited.
+
+      9.2 **Citation Requirement.**
+          Any publication, presentation, or distribution of Derivative Works
+          must include the citation specified in Section 4(c).
+
+      9.3 **Jurisdiction.**
+          This License is governed by the laws of the State of California,
+          United States. Disputes shall be resolved in Los Angeles County, California.
+
+   10. NOTICE
+       **Artifact ID:** nova-itera-rvaf-001
+       **Title:** Research Value Assessment Framework (Notion Formula)
+       **Copyright (c) 2026** NOVA ITERA RESEARCH GROUP, LLC
+       **Contact:** safety@novaiteraresearch.org
+
+       This repository contains a Notion formula and associated metadata for a
+       multi-factor research value scoring and asset classification framework.
+
+       **Timestamps (UTC):**
+       | Event       | ISO 8601 (UTC)          | Unix Milliseconds  |
+       |-------------|--------------------------|--------------------|
+       | Created     | 2026-02-17T01:14:58.125Z | 1771290898125      |
+       | Exported    | 2026-02-17T01:14:58.125Z | 1771290898125      |
+
+       **Attribution Requirement:**
+       When redistributing this Work or Derivative Works, retain this NOTICE,
+       the LICENSE file, and all YAML metadata files.
+
+   END OF TERMS AND CONDITIONS
